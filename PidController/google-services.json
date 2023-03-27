@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "553783355807",
+    "project_id": "pid-controller-f2c64",
+    "storage_bucket": "pid-controller-f2c64.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:553783355807:android:952b3fa851e7dba74e35aa",
+        "android_client_info": {
+          "package_name": "com.mikael.pidcontroller"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "553783355807-tqsg8279uv25de41mgmmt74vj1oa02p8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDehgW0AvXZFhaHM7ZFoQWXfSsVndmXTwI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "553783355807-tqsg8279uv25de41mgmmt74vj1oa02p8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

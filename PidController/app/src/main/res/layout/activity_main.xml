@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:ellipsize="end"
+            android:text="Status:"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/bluetooth_status"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_weight="0.9"
+            android:ellipsize="end"
+            android:singleLine="false"
+            android:text="&lt;Bluetooth Status>" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/scan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bluetooth ON" />
+
+    <Button
+        android:id="@+id/scan_ble"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Scan for BLE Devices" />
+
+    <Button
+        android:id="@+id/stop_scan_ble"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="Stop Scan for BLE Devices" />
+
+    <Button
+        android:id="@+id/opengraph"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Graph" />
+
+    <Button
+        android:id="@+id/writeCsv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Write Graph Values To Csv"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/resetGraph"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reset Graph"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/pidparameters"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="Set PID Parameters" />
+
+    <Button
+        android:id="@+id/autotune"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="Auto Tune" />
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Process"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/stop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stop Process"
+        android:visibility="gone"/>
+
+    <ListView
+        android:id="@+id/devices_list_view"
+        android:layout_width="wrap_content"
+        android:layout_height="184dp"
+        android:choiceMode="singleChoice" />
+
+</LinearLayout>
