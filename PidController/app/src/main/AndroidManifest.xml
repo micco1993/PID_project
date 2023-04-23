@@ -30,6 +30,7 @@
             android:exported="true"
             android:screenOrientation="landscape"></activity>
         <activity android:name="com.mikael.pidcontroller.PidParametersActivity"></activity>
+        <activity android:name="com.mikael.pidcontroller.AboutApp"></activity>
 
     </application>
 

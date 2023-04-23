@@ -20,4 +20,7 @@
     <string name="DisStop">Discovery stopped</string>
     <string name="status">"Status: "</string>
     <string name="discover_new_devices">Discover new device</string>
+    <string name="hyperlink">This app can control and monitor a PID controller via Bluetooth. For more information:\n<a href="https://github.com/micco1993/PID_project">https://github.com/micco1993/PID_project</a></string>
+    <string name="hyperlink2">The app uses open-source software library EventBus made by greenrobot. For more information:\n<a href="https://greenrobot.org/eventbus/">https://greenrobot.org/eventbus/</a></string>
+    <string name="hyperlink3">The app uses open-source software library GraphView made by Jonas Gehring. For more information:\n<a href="https://github.com/jjoe64/GraphView">https://github.com/jjoe64/GraphView/</a></string>
 </resources>

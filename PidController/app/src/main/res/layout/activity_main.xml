@@ -99,7 +99,15 @@
     <ListView
         android:id="@+id/devices_list_view"
         android:layout_width="wrap_content"
-        android:layout_height="184dp"
+        android:layout_height="497dp"
         android:choiceMode="singleChoice" />
+
+    <TextView
+        android:id="@+id/about_app"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:gravity="center"
+        android:text="About App"
+        android:textSize="20dp"/>
 
 </LinearLayout>
