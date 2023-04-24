@@ -1,0 +1,19 @@
+How to use application:
+
+- Download application by clicking app-release.apk under Releases section
+- Allow app-release.apk to be downloaded and installed on your device
+- Open app after installation
+- Press BLUETOOTH ON to activate the Bluetooth adapter on your device. This will ask
+  for Bluetooth permission which has to be allowed.
+- Press SCAN FOR BLE DEVICES to find nearby Bluetooth Low Energy devices. This will ask
+  for the permission to device's location. Choose precise location.
+- Found devices with name and address will now be shown in a list. You can stop scan by
+  pressing STOP SCAN FOR BLE DEVICES after device with name PID is found. (Bluetooth 
+  scanning is an energy-intensive process so it should be stopped as fast as possible!)
+- Connect to PID by clicking it in the list.
+- Input parameters for the PID by pressing SET PID PARAMETERS.
+- The process can be started after parameters are set.
+- The process can be monitored in a graph by pressing SHOW GRAPH or stopped by pressing
+  STOP PROCESS.
+- After process is stopped the results can be viewed in the graph, the results can be
+  written to a csv file and the graph can be emptied by pressing RESET GRAPH.
